@@ -19,7 +19,7 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-light">
+      <nav class="navbar navbar-expand-md fixed-top navbar-light">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" id="logo" alt="logo">
           <span id="title">Wildo Coda</span>
@@ -31,79 +31,151 @@
         <div class="collapse navbar-collapse justify-content-end" id="navBar">
           <ul class="navbar-nav float-right text-right pr-3">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main>
-      <div class="container">
-        <!-- slides -->
-        <div class="row no-gutters">
-          <div class="col">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/slide1.jpg">                  
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/slide3.jpg" alt="Third slide">                  
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+    <main class="bg-light">
+      <!-- Slides -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/home/slide1.jpg">                  
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/home/slide2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/home/slide3.jpg" alt="Third slide">                  
           </div>
         </div>
-
-        <!-- Cards -->
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <span class="date">April 1,2019</span>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <p> Test </p>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <p> Test </p>
-          </div>
-        </div>
-
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      
+
+      <p id="Greetings">Welcome to my Blog! My name is Wildo Coda and I'm photographer. I love Berlin and I invite you to enjoy this incredible city with me!</p>
+
+      <div class="container">
+        <!-- Cards -->
+        <div class="row equal">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Blog Post 1 - Architecture -->
+            <div class="card">
+              <img class="card-img-top" src="img/blog/blog_architecture.jpg" alt="Architecture">
+              <div class="card-body">
+                <h5 class="card-title">Architecture and design in Berlin</h5>
+                <span class="date text-muted">April 1, 2019</span>
+                <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="blog/blog_post_1.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Blog Post 2 - Transport -->
+            <div class="card">
+              <img class="card-img-top" src="img/blog/blog_transport.jpg" alt="Transport">
+              <div class="card-body">
+                <h5 class="card-title">Public Transport in Berlin</h5>
+                <span class="date text-muted">March 14, 2019</span>
+                <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="blog/blog_post_2.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Blog Post 3 - TV Tower -->
+            <div class="card">
+              <img class="card-img-top" src="img/blog/blog_tv_tower.jpg" alt="Museum">
+              <div class="card-body">
+                <h5 class="card-title">TV Tower</h5>
+                <span class="date text-muted">February 23, 2019</span>
+                <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="blog/blog_post_3.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Blog Post 4 - Bundestag -->
+            <div class="card">
+              <img class="card-img-top" src="img/blog/blog_bundestag.jpg" alt="Bundestag">
+              <div class="card-body">
+                <h5 class="card-title">Federal parliament</h5>
+                <span class="date text-muted">January 31, 2019</span>
+                <p class="card-text text-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="blog/blog_post_4.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>           
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Blog Post 5 - Monuments -->
+            <div class="card">
+              <img class="card-img-top" src="img/blog/blog_monument.jpg" alt="Monument">
+              <div class="card-body">
+                <h5 class="card-title">There is a field of dark grey blocks...</h5>
+                <span class="date text-muted">December 4, 2018</span>
+                <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="blog/blog_post_5.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Blog Post 6 - Nature -->
+            <div class="card">
+              <img class="card-img-top" src="img/blog/blog_nature.jpg" alt="Nature">
+              <div class="card-body">
+                <h5 class="card-title">A guide to natural Berlin</h5>
+                <span class="date text-muted">September 19, 2018</span>
+                <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="blog/blog_post_6.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
     </main>
 
     <!-- Optional JavaScript -->
