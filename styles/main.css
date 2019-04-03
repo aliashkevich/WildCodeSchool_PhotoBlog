@@ -15,7 +15,7 @@
 }
 
 .navbar {
-  background-color: #c2e2f5;
+  background-color: #7ec8e3;
   padding: 0 8px 0 16px;
 }
 
@@ -65,7 +65,10 @@
 
 /* TO DO: how to customize burger button icons color?; */
 
-
+main .container {
+  max-width: 100%;
+  padding: 0;
+}
 
 
 
