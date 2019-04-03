@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <!-- Bootstrap icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
     <!-- Logo --> 
     <link rel="shortcut icon" href="img/logo.png"/>
 
@@ -57,13 +60,17 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="img/home/slide1.jpg">                  
+            <img class="d-block w-100" src="img/home/slide0.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-lg-block">
+              <p>Welcome to my Blog!</p>
+              <p>I love Berlin and I invite you to enjoy this incredible city with me!</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/home/slide2.jpg" alt="Second slide">
-          </div>
+            <img class="d-block w-100" src="img/home/slide1.jpg">                
+          </div>          
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/home/slide3.jpg" alt="Third slide">                  
+            <img class="d-block w-100" src="img/home/slide2.jpg" alt="Third slide">                  
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -76,11 +83,9 @@
         </a>
       </div>
 
-      <p id="Greetings">Welcome to my Blog! My name is Wildo Coda and I'm photographer. I love Berlin and I invite you to enjoy this incredible city with me!</p>
-
       <div class="container">
         <!-- Cards -->
-        <div class="row equal">
+        <div class="row">
           <div class="col-lg-4 col-md-6 col-xs-12">
             <!-- Blog Post 1 - Architecture -->
             <div class="card">
@@ -140,7 +145,7 @@
               <div class="card-body">
                 <h5 class="card-title">Federal parliament</h5>
                 <span class="date text-muted">January 31, 2019</span>
-                <p class="card-text text-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <a href="blog/blog_post_4.html" class="btn btn-primary">Read More</a>
               </div>
             </div>           
@@ -177,6 +182,19 @@
         </div>
       </div>      
     </main>
+
+    <footer>
+      <div id="foter-icons" class="text-center">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>      
+      </div>
+      <hr>
+      <div id="copyright">
+        <p class="text-center small">© 2019 - Wildo Coda. All Rights Reserved</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

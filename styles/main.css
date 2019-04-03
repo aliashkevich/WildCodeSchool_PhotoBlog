@@ -14,6 +14,14 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bad Script Regular'), local('BadScript-Regular'), url(https://fonts.gstatic.com/s/badscript/v7/6NUT8F6PJgbFWQn47_x7pOskzP9Ddt0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 .navbar {
   background-color: #7ec8e3;
   padding: 0 8px 0 16px;
@@ -63,6 +71,11 @@
   outline: 0;
 }
 
+.carousel-caption {
+  font-family: "Bad Script", 'Merienda', cursive;
+  font-size: 1.2rem;
+}
+
 /* TO DO: how to customize burger button icons color?; */
 
 main .container {
@@ -77,6 +90,15 @@ main .container {
 
 .card-title {
   min-height: 3rem;
+}
+
+footer {
+  padding-top: 1rem;
+}
+
+i.fa {
+  font-size: 2rem;
+  padding: 0 5px;
 }
 
 
