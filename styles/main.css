@@ -76,9 +76,14 @@
 
 /* TO DO: how to customize burger button icons color?; */
 
-main .container {
+main {
+  padding-top: 62px;
+}
+
+main #container-home {
   max-width: 100%;
   padding: 20px;
+  padding-bottom: 0px;
 }
 
 .card {
@@ -101,3 +106,35 @@ i.fa:hover {
   opacity: 1;
 }
 
+
+/* About page */
+#container-about {
+  padding-top: 2rem;
+}
+
+#container-about .bio {
+  max-width: 25rem;
+  font-family: 'Handlee', cursive;
+}
+
+#photo {
+  max-height: 20rem;
+  width: auto;
+}
+
+h3 {
+  font-family: 'Handlee', 'Merienda', cursive;
+}
+
+.publication-link {
+  font-family: 'Handlee', 'Merienda', cursive;
+  font-size: 1.4rem;
+}
+
+.publication-link strong{  
+  color: #000000;
+}
+
+.publication-link a{  
+  color: #7ec8e3;
+}
