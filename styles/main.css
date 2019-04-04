@@ -23,8 +23,12 @@
 }
 
 .navbar {
-  background-color: #7ec8e3;
   padding: 0 8px 0 16px;
+  background-color: #050a30;
+}
+
+.bg-dark {
+  background-color: #050a30 !important;
 }
 
 #logo {
@@ -34,30 +38,24 @@
 
 #title {
   font-family: 'Handlee', 'Merienda', cursive;
-  color: #4b7bf5;
+  color: #ffffff;
   vertical-align: middle;
   font-size: 35px;
 }
 
-.nav-link{
+.navbar-dark .navbar-nav .nav-link{
   font-family: 'Handlee', 'Merienda', cursive;
+  color: #ffffff;
+  font-size: 25px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link {
-  color: #00478f;
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #7ec8e3;
   text-decoration: underline;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #4b7bf5;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #00478f;
-}
-
-.nav-link {
-  font-size: 25px;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #7ec8e3;
 }
 
 /* remove navbar button stying */
@@ -92,13 +90,14 @@ main .container {
   min-height: 3rem;
 }
 
-footer {
-  padding-top: 1rem;
-}
-
 i.fa {
+  color: #ffffff;
   font-size: 2rem;
-  padding: 0 5px;
+  padding: 0.8rem;
+  opacity: 0.7;
 }
 
+i.fa:hover {
+  opacity: 1;
+}
 
