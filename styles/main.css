@@ -138,3 +138,33 @@ h3 {
 .publication-link a{  
   color: #7ec8e3;
 }
+
+/* Contact */
+.contact-form {
+  margin: 50px 2rem;
+  padding: 1.5rem;
+  background: #8c7ee3;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: 'Handlee', 'Merienda', cursive;
+}
+
+.btn-lg {
+  color: ;
+  background-color: #7ee399;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-lg:hover {
+  background-color: #48ca6b;
+}
+
+.col-center {
+  margin: 10px auto;
+}
+
+
+
+
+
