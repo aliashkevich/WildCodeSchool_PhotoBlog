@@ -144,6 +144,11 @@ h3 {
 }
 
 /* Contact */
+#container-contact {
+  background-color: #e2e8f0;
+
+}
+
 .contact-form {
   margin: 50px 2rem;
   padding: 1.5rem;
